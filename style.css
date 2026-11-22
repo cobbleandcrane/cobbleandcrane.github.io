@@ -180,6 +180,30 @@ footer a:hover { color: var(--sun); }
 .pages figcaption a { color: var(--orange-deep); font-weight: 700; }
 .terms { max-width: 60ch; margin: 50px auto 0; font-size: 15px; color: var(--ink-soft); text-align: center; }
 
+/* guides */
+.article { padding: 50px 0 30px; }
+.narrow { width: min(760px, 100% - 40px); }
+.crumb { display: block; width: fit-content; margin-bottom: 22px; font-size: 15px; color: var(--ink-soft); text-decoration: none; }
+.crumb:hover { color: var(--ink); }
+.article h1 { font-size: clamp(38px, 5.4vw, 60px); margin: 14px 0 12px; }
+.byline { color: var(--ink-soft); font-size: 15px; margin: 0 0 36px; }
+.prose { font-size: 19px; line-height: 1.75; }
+.prose > p:first-child { font-size: 22px; color: var(--ink-soft); }
+.prose h2 { font-size: clamp(28px, 3.4vw, 38px); margin: 52px 0 14px; }
+.prose h3 { font-size: 24px; margin: 34px 0 8px; }
+.prose ul, .prose ol { padding-left: 1.2em; }
+.prose li { margin: 6px 0; }
+.prose li::marker { color: var(--orange-deep); font-weight: 700; }
+.prose a { color: var(--orange-deep); font-weight: 700; text-underline-offset: 3px; }
+.prose .tip { background: var(--sun-soft); border-left: 6px solid var(--sun); border-radius: 0 16px 16px 0; padding: 18px 22px; margin: 28px 0; font-size: 17px; }
+.prose .tip b { font-family: var(--serif); font-size: 19px; display: block; margin-bottom: 4px; }
+.prose .act { background: var(--card); border-radius: 18px; box-shadow: var(--shadow); padding: 18px 22px; margin: 18px 0; }
+.prose .act h3 { margin: 0 0 6px; font-size: 22px; }
+.prose .act p { margin: 0; font-size: 17px; color: var(--ink-soft); }
+.prose .act .age { display: inline-block; font-size: 13px; padding: 3px 10px; border-radius: 999px; background: var(--sky); margin-left: 8px; vertical-align: middle; font-family: var(--sans); font-weight: 400; }
+.prose .act.print { border-left: 6px solid var(--orange); }
+.picks { background: var(--paper-2); padding: 70px 0; margin-top: 40px; }
+
 /* reveal on scroll */
 .js .reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.8,.2,1); }
 .js .reveal.in { opacity: 1; transform: none; }
