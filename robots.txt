@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cobbleandcrane.github.io/sitemap.xml
